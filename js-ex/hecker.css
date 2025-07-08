@@ -1,0 +1,20 @@
+body {
+    background-color: green;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center;     /* vertically center */
+    font-family: monospace;
+  }
+  .terminal {
+    color: white;
+    font-size: 20px;
+    white-space: nowrap; /* prevent line breaks */
+  }
+  
+  #message, #dots {
+    display: inline;
+    vertical-align: bottom;
+  }
+  
